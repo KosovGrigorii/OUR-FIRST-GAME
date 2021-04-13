@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf951aae-6840-4d31-99ed-8854416baadd" name="Default Changelist" comment="" />
+    <list default="true" id="a650c08a-67e0-4be3-b7a3-a79b5e65d74c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1DEA7270-097D-4B6A-B638-D7D9391AB81D/2e/119d4afe/Input.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -17,14 +35,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1qpb6CQeLlCl3py3dPJ1XljNp6m" />
+  <component name="ProjectId" id="1r7mMHZ5CxxF4YZE6KzLgg3emJr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3496708" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29992685" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -34,7 +51,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -60,16 +76,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf951aae-6840-4d31-99ed-8854416baadd" name="Default Changelist" comment="" />
-      <created>1617779307263</created>
+      <changelist id="a650c08a-67e0-4be3-b7a3-a79b5e65d74c" name="Default Changelist" comment="" />
+      <created>1618335458878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617779307263</updated>
-      <workItem from="1617779322264" duration="72000" />
-      <workItem from="1617800470372" duration="807000" />
-      <workItem from="1617908922344" duration="1016000" />
-      <workItem from="1618143211208" duration="2239000" />
-      <workItem from="1618155002101" duration="8226000" />
+      <updated>1618335458878</updated>
+      <workItem from="1618335470523" duration="23000" />
+      <workItem from="1618335507933" duration="2530000" />
     </task>
     <servers />
   </component>
@@ -78,81 +91,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1398" height="331" key="GridCell.Tab.0.bottom" timestamp="1617801409984">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617801409984" />
-    <state width="1398" height="331" key="GridCell.Tab.0.center" timestamp="1617801409982">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617801409982" />
-    <state width="1398" height="331" key="GridCell.Tab.0.left" timestamp="1617801409981">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617801409981" />
-    <state width="1398" height="331" key="GridCell.Tab.0.right" timestamp="1617801409983">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617801409983" />
-    <state width="1398" height="331" key="GridCell.Tab.1.bottom" timestamp="1617801409986">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617801409986" />
-    <state width="1398" height="331" key="GridCell.Tab.1.center" timestamp="1617801409985">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1617801409985" />
-    <state width="1398" height="331" key="GridCell.Tab.1.left" timestamp="1617801409984">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1617801409984" />
-    <state width="1398" height="331" key="GridCell.Tab.1.right" timestamp="1617801409985">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1617801409985" />
-    <state width="1398" height="331" key="GridCell.Tab.2.bottom" timestamp="1617801409987">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617801409987" />
-    <state width="1398" height="331" key="GridCell.Tab.2.center" timestamp="1617801409986">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1617801409986" />
-    <state width="1398" height="331" key="GridCell.Tab.2.left" timestamp="1617801409986">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1617801409986" />
-    <state width="1398" height="331" key="GridCell.Tab.2.right" timestamp="1617801409987">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1617801409987" />
-    <state width="1398" height="331" key="GridCell.Tab.3.bottom" timestamp="1617801409989">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617801409989" />
-    <state width="1398" height="331" key="GridCell.Tab.3.center" timestamp="1617801409989">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1617801409989" />
-    <state width="1398" height="331" key="GridCell.Tab.3.left" timestamp="1617801409988">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1617801409988" />
-    <state width="1398" height="331" key="GridCell.Tab.3.right" timestamp="1617801409989">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="331" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1617801409989" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1617908972582">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617908972582" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1617801334553">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1617801334553" />
   </component>
 </project>
