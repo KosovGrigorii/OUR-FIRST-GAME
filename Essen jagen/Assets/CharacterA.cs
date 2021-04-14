@@ -43,6 +43,7 @@ public class CharacterA : MonoBehaviour
             else if (canDoubleJump)
             {
                 Jump();
+                canDoubleJump = false;
             }
         }
     }
@@ -59,7 +60,9 @@ public class CharacterA : MonoBehaviour
         FlipPlayer();
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
     }
+    
 
     void PlatformerMove()
     {
