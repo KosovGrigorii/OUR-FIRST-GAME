@@ -20,30 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a650c08a-67e0-4be3-b7a3-a79b5e65d74c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump/1x.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump/1x.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/1x.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/1x.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterA Idle Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterA Idle Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterA.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterA.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background1920x1080.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background1920x1080.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background2048x1536.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background2048x1536.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground1920x1080.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground1920x1080.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground2048x1536.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground2048x1536.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/Chest/eps/Chest.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/Chest/eps/Chest.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/eps/New Chest.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/eps/New Chest.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Iconic Buttons.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Iconic Buttons.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Level Select Sample.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Level Select Sample.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/eps/Tiles.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/eps/Tiles.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA jump Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA jump Animation.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CharacterA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/25/25a035944ee9dd1f90ec0e3d47165d84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9e/9ee5181f6dd48f737f1d6d198128c922" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b7/b75a295c117bc05c3fc7fd4d4efb3241" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f5/f5d9f911eaee2eaee01854f89eea2232" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +68,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CharacterA.cs" />
+        <option value="$PROJECT_DIR$/Assets/IceMoving.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +120,14 @@
       <updated>1618335458878</updated>
       <workItem from="1618335470523" duration="23000" />
       <workItem from="1618335507933" duration="2863000" />
-      <workItem from="1618375720631" duration="1611000" />
+      <workItem from="1618375720631" duration="1866000" />
+      <workItem from="1618379286109" duration="1111000" />
+      <workItem from="1618924642562" duration="157000" />
+      <workItem from="1618924905232" duration="8000" />
+      <workItem from="1618924930202" duration="1489000" />
+      <workItem from="1618926737157" duration="276000" />
+      <workItem from="1618927023932" duration="838000" />
+      <workItem from="1618928120411" duration="353000" />
     </task>
     <servers />
   </component>
@@ -131,5 +150,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="156" key="RiderGenerateDialog" timestamp="1618928173172">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="463" y="156" key="RiderGenerateDialog/0.25.1440.807@0.25.1440.807" timestamp="1618928173172" />
   </component>
 </project>

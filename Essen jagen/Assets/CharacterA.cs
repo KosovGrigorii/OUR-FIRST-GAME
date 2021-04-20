@@ -14,6 +14,7 @@ public class CharacterA : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+
     private bool canDoubleJump;
     
 
