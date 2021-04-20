@@ -20,41 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a650c08a-67e0-4be3-b7a3-a79b5e65d74c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background1920x1080.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background1920x1080.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background2048x1536.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/eps/Background2048x1536.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground1920x1080.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground1920x1080.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground2048x1536.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Backgrounds/New Background ( Update 1.7 )/eps/NewBackground2048x1536.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/Chest/eps/Chest.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/Chest/eps/Chest.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/eps/New Chest.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Chests/New Chests ( Update 1.8.5 )/eps/New Chest.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Iconic Buttons.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Iconic Buttons.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Level Select Sample.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/GUI ( Update 1.7 )/eps/Level Select Sample.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/eps/Tiles.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/eps/Tiles.eps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA jump Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA Animation/CharacterA jump Animation.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CharacterA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IceMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/IceMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +39,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CharacterA.cs" />
         <option value="$PROJECT_DIR$/Assets/IceMoving.cs" />
+        <option value="$PROJECT_DIR$/Assets/IceMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterA.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1r7mMHZ5CxxF4YZE6KzLgg3emJr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -127,7 +103,7 @@
       <workItem from="1618924930202" duration="1489000" />
       <workItem from="1618926737157" duration="276000" />
       <workItem from="1618927023932" duration="838000" />
-      <workItem from="1618928120411" duration="353000" />
+      <workItem from="1618928120411" duration="970000" />
     </task>
     <servers />
   </component>
@@ -149,6 +125,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">

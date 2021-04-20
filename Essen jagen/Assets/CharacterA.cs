@@ -7,12 +7,15 @@ public class CharacterA : MonoBehaviour
 {
     public float moveSpeed;
     private float xInput, yInput;
-    private Rigidbody2D rb2d;
+    public Rigidbody2D rb2d;
     private SpriteRenderer sp;
     public float jumpForce;
     private bool isGrounded;
     public Transform groundCheck;
     public LayerMask groundLayer;
+    bool isIced;
+    public Transform iceCheck;
+    public LayerMask iceLayer;
 
 
     private bool canDoubleJump;
@@ -47,6 +50,14 @@ public class CharacterA : MonoBehaviour
                 canDoubleJump = false;
             }
         }
+        
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (isIced)
+            {
+                MoveOnIce();
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -61,6 +72,7 @@ public class CharacterA : MonoBehaviour
         FlipPlayer();
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        isIced = Physics2D.OverlapCircle(iceCheck.position, 0.2f, iceLayer);
 
     }
     
@@ -86,5 +98,18 @@ public class CharacterA : MonoBehaviour
     void Jump()
     {
         rb2d.velocity = Vector2.up * jumpForce;
+    }
+    
+    void MoveOnIce()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        { 
+            rb2d.AddForce(new Vector2(-moveSpeed, 0));
+        }
+        
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            rb2d.AddForce(new Vector2(moveSpeed, 0));
+        }
     }
 }
