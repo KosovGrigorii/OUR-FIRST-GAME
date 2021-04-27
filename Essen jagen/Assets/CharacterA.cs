@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class CharacterA : MonoBehaviour
 {
@@ -13,9 +14,15 @@ public class CharacterA : MonoBehaviour
     private bool isGrounded;
     public Transform groundCheck;
     public LayerMask groundLayer;
-    bool isIced;
-    public Transform iceCheck;
     public LayerMask iceLayer;
+    public bool isIce;
+    public Vector2 oldVelocity;
+
+    public int maxHealth = 1000;
+    public int currentHealth;
+    public HealthBar healthBar;
+    const int coef = 1;
+
 
 
     private bool canDoubleJump;
@@ -30,7 +37,8 @@ public class CharacterA : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -38,7 +46,7 @@ public class CharacterA : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (isGrounded)
+            if (isGrounded||isIce)
             {
                 Jump();
                 canDoubleJump = true;
@@ -50,36 +58,56 @@ public class CharacterA : MonoBehaviour
                 canDoubleJump = false;
             }
         }
-        
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            if (isIced)
-            {
-                MoveOnIce();
-            }
-        }
     }
 
     private void FixedUpdate()
     {
         xInput = Input.GetKey(KeyCode.LeftArrow) ? Input.GetAxis("Horizontal") :
             Input.GetKey(KeyCode.RightArrow) ? Input.GetAxis("Horizontal") : 0;
-        //yInput = Input.GetKey(KeyCode.UpArrow) ? Input.GetAxis("Vertical") :
-        //    Input.GetKey(KeyCode.DownArrow) ? Input.GetAxis("Vertical") : 0;
+
         transform.Translate(xInput * moveSpeed, yInput * moveSpeed, 0);
         
-        PlatformerMove();
-        FlipPlayer();
+        isIce = Physics2D.OverlapCircle(groundCheck.position, 0.2f, iceLayer);
+        if (isIce && xInput == 0)
+        {
+            rb2d.AddForce(oldVelocity);
+            oldVelocity = new Vector2(moveSpeed * xInput, rb2d.velocity.y);
+            //rb2d.velocity = new Vector2(oldVelocity.x/2, rb2d.velocity.y);
+
+        }
+        
+        else if (isIce && xInput != 0)
+        {
+            rb2d.velocity = new Vector2(moveSpeed * xInput, rb2d.velocity.y)*10;
+            oldVelocity = rb2d.velocity;
+            FlipPlayer();
+
+        }
+
+        else
+        {
+            PlatformerMove();
+            FlipPlayer();
+        }
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        isIced = Physics2D.OverlapCircle(iceCheck.position, 0.2f, iceLayer);
-
+        
+        TakeDamage();
     }
+
+    public void TakeDamage()
+    {
+        currentHealth -= coef;
+        healthBar.SetHealth(currentHealth);
+    }
+
+
     
 
     void PlatformerMove()
     {
         rb2d.velocity = new Vector2(moveSpeed * xInput, rb2d.velocity.y);
+        oldVelocity = rb2d.velocity;
     }
 
     void FlipPlayer()
@@ -98,18 +126,5 @@ public class CharacterA : MonoBehaviour
     void Jump()
     {
         rb2d.velocity = Vector2.up * jumpForce;
-    }
-    
-    void MoveOnIce()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        { 
-            rb2d.AddForce(new Vector2(-moveSpeed, 0));
-        }
-        
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            rb2d.AddForce(new Vector2(moveSpeed, 0));
-        }
     }
 }

@@ -20,13 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a650c08a-67e0-4be3-b7a3-a79b5e65d74c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/2D Ice World.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Ice World/Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Ice World/Assets/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Ice World/Assets/Sprites/Single Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_big_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_big_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bar.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HealthBar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HealthBar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ice.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ice.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Teleportation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Синий порталМ2.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Essen jagen/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CharacterA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/IceMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Teleportation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Teleportation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +64,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.22/UnityEditor.TestRunner/TestRun/Tasks/SaveModiedSceneTask.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/IceMoving.cs" />
         <option value="$PROJECT_DIR$/Assets/IceMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/IceMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Teleportation.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/CharacterA.cs" />
       </list>
     </option>
@@ -64,6 +98,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -103,7 +138,19 @@
       <workItem from="1618924930202" duration="1489000" />
       <workItem from="1618926737157" duration="276000" />
       <workItem from="1618927023932" duration="838000" />
-      <workItem from="1618928120411" duration="970000" />
+      <workItem from="1618928120411" duration="1721000" />
+      <workItem from="1618930306662" duration="19000" />
+      <workItem from="1618931045497" duration="5000" />
+      <workItem from="1618931058303" duration="21000" />
+      <workItem from="1618931821265" duration="3375000" />
+      <workItem from="1618937954300" duration="6989000" />
+      <workItem from="1618978130479" duration="547000" />
+      <workItem from="1618980319020" duration="18000" />
+      <workItem from="1618980346405" duration="785000" />
+      <workItem from="1618983826919" duration="1232000" />
+      <workItem from="1619443917885" duration="1947000" />
+      <workItem from="1619508367854" duration="11000" />
+      <workItem from="1619508394616" duration="117000" />
     </task>
     <servers />
   </component>
@@ -129,9 +176,25 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="278" key="#Notifications" timestamp="1618931075448">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="446" y="278" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1618931075448" />
+    <state x="475" y="290" key="LayersDialog" timestamp="1618932512251">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="475" y="290" key="LayersDialog/0.25.1440.805@0.25.1440.805" timestamp="1618932512251" />
     <state x="463" y="156" key="RiderGenerateDialog" timestamp="1618928173172">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="463" y="156" key="RiderGenerateDialog/0.25.1440.807@0.25.1440.807" timestamp="1618928173172" />
+    <state x="229" y="63" key="SettingsEditor" timestamp="1618932506519">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="229" y="63" key="SettingsEditor/0.25.1440.805@0.25.1440.805" timestamp="1618932506519" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1619446394078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1619446394078" />
   </component>
 </project>
