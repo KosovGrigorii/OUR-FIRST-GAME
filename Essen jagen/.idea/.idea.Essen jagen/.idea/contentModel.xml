@@ -12,6 +12,7 @@
         <e p="CharacterA.cs" t="Include" />
         <e p="Eating.cs" t="Include" />
         <e p="HealthBar.cs" t="Include" />
+        <e p="MovingPlatform.cs" t="Include" />
         <e p="Scenes" t="Include">
           <e p="MenuBehaviour.cs" t="Include" />
         </e>

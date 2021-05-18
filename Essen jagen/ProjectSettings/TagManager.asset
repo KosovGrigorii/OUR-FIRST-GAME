@@ -18,7 +18,7 @@ TagManager:
   - 
   - Ground
   - Ice
-  - 
+  - plat
   - 
   - 
   - 
@@ -46,4 +46,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: front
+    uniqueID: 3951666123
     locked: 0

@@ -15,8 +15,11 @@ public class Eating : MonoBehaviour
     public float maxY;
 
     private bool isGrounded;
+    private bool isIced;
     public Transform groundCheck;
     public LayerMask groundLayer;
+    public Transform iceCheck;
+    public LayerMask iceLayer;
 
     private void Awake()
     {
@@ -25,7 +28,8 @@ public class Eating : MonoBehaviour
     private void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        if (isGrounded) transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f);
+        isIced = Physics2D.OverlapCircle(iceCheck.position, 0.2f, iceLayer);
+        if (isGrounded || isIced) transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f);
         //else if (firstTeleportation) rb2d.bodyType = RigidbodyType2D.Dynamic;
     }
     public void OnTriggerEnter2D(Collider2D collision)
@@ -47,7 +51,7 @@ public class Eating : MonoBehaviour
 
     public bool CheckingPoint(float x, float y)
     {
-        var dictOfWays = new Dictionary<Tuple<float, float>, bool>();  // ìîæíî ñ ïîìîùüþ ìîäóëÿ ñîêðàòèòü âäâîå
+        var dictOfWays = new Dictionary<Tuple<float, float>, bool>();
         var queue = new Queue<Tuple<float, float>>();
         for (float i = -distanceFood; i <= distanceFood; i += 0.5f)
             for (float j = -distanceFood; j <= distanceFood; j += 0.5f)
