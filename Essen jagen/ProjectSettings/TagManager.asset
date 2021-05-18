@@ -6,11 +6,12 @@ TagManager:
   tags:
   - IceFloor
   - CharacterA
+  - Food
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Back
   - Water
   - UI
   - 
@@ -40,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Back
+    uniqueID: 4264395087
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

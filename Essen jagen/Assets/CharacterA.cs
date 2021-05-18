@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.WSA;
+using UnityEngine.SceneManagement;
 
 public class CharacterA : MonoBehaviour
 {
@@ -21,7 +22,10 @@ public class CharacterA : MonoBehaviour
     public int maxHealth = 1000;
     public int currentHealth;
     public HealthBar healthBar;
-    const int coef = 1;
+    public int coef = 1;
+    private bool isEating = false;
+    private int tempMaxHealth;
+    public int satiety;
 
 
 
@@ -37,6 +41,7 @@ public class CharacterA : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        tempMaxHealth = maxHealth;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -78,7 +83,7 @@ public class CharacterA : MonoBehaviour
         
         else if (isIce && xInput != 0)
         {
-            rb2d.velocity = new Vector2(moveSpeed * xInput, rb2d.velocity.y)*10;
+            rb2d.velocity = new Vector2(moveSpeed * xInput*10, rb2d.velocity.y);
             oldVelocity = rb2d.velocity;
             FlipPlayer();
 
@@ -95,10 +100,50 @@ public class CharacterA : MonoBehaviour
         TakeDamage();
     }
 
-    public void TakeDamage()
-    {
-        currentHealth -= coef;
-        healthBar.SetHealth(currentHealth);
+    //public void TakeDamage()
+    //{
+     //   if (currentHealth == 0) return;
+    //    currentHealth -= coef * (int)Time.timeAsDouble;
+    //    healthBar.SetHealth(currentHealth);
+    //    if(currentHealth <1e-9) SceneManager.LoadScene("DeathScene");
+    //}
+    
+    public void TakeDamage() 
+    { 
+        if (isEating) return; 
+        if (coef < 5 && tempMaxHealth <= 0) 
+        { 
+            coef++; 
+            tempMaxHealth = maxHealth * coef; 
+        } 
+        currentHealth -= coef; 
+        if(currentHealth <= 0) SceneManager.LoadScene("DeathScene"); 
+        if (coef < 5) tempMaxHealth -= coef; 
+        healthBar.SetHealth(currentHealth); 
+    } 
+
+    public void OnTriggerEnter2D(Collider2D collision) 
+    { 
+        if (collision.gameObject.tag == "Food") 
+        { 
+            isEating = true; 
+            Eating(); 
+            isEating = false; 
+        } 
+    } 
+
+    public void Eating() 
+    { 
+        if (currentHealth + satiety > maxHealth) 
+        { 
+            currentHealth = maxHealth; 
+            healthBar.SetHealth(maxHealth); 
+        } 
+        else 
+        { 
+            currentHealth += satiety; 
+            healthBar.SetHealth(currentHealth); 
+        } 
     }
 
 
