@@ -7,6 +7,10 @@ TagManager:
   - IceFloor
   - CharacterA
   - Food
+  - CharacterB
+  - Teleport
+  - music
+  - HorizPlat
   layers:
   - Default
   - TransparentFX
@@ -49,4 +53,7 @@ TagManager:
     locked: 0
   - name: front
     uniqueID: 3951666123
+    locked: 0
+  - name: super front
+    uniqueID: 2226620903
     locked: 0
