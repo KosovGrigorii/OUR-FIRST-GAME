@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Portal: {fileID: 819049888}
   Player1: {fileID: 1370214420}
-  Player2: {fileID: 0}
+  Player2: {fileID: 306135892}
   offsetX: 2.5
   offsetY: -1
 --- !u!61 &609429663
@@ -2460,7 +2460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Portal: {fileID: 609429661}
   Player1: {fileID: 1370214420}
-  Player2: {fileID: 0}
+  Player2: {fileID: 306135892}
   offsetX: -2.5
   offsetY: -1
 --- !u!61 &819049890

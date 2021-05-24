@@ -101,6 +101,14 @@ public class CharacterA : MonoBehaviour
 
         transform.Translate(xInput * moveSpeed, yInput * moveSpeed, 0);
         
+        IceOrGroundMovement();
+        
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        TakeDamage();
+    }
+
+    public void IceOrGroundMovement()
+    {
         isIce = Physics2D.OverlapCircle(groundCheck.position, 0.2f, iceLayer);
         isIce1 = Physics2D.OverlapCircle(groundCheck1.position, 0.2f, iceLayer);
         isIce2 = Physics2D.OverlapCircle(groundCheck2.position, 0.2f, iceLayer);
@@ -126,20 +134,8 @@ public class CharacterA : MonoBehaviour
             PlatformerMove();
             FlipPlayer();
         }
-
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-        
-        TakeDamage();
     }
 
-    //public void TakeDamage()
-    //{
-     //   if (currentHealth == 0) return;
-    //    currentHealth -= coef * (int)Time.timeAsDouble;
-    //    healthBar.SetHealth(currentHealth);
-    //    if(currentHealth <1e-9) SceneManager.LoadScene("DeathScene");
-    //}
-    
     public void TakeDamage() 
     { 
         if (isEating) return; 
