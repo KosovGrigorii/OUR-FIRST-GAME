@@ -304,7 +304,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1279,7 +1279,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0418\u0413\u0420\u0410 \u041E\u041A\u041E\u041D\u0427\u0415\u041D\u0410.\n\u041E\u0421\u0422\u0420\u041E\u041D\u0410\u0412\u0422
-    \u041C\u0401\u0420\u0422\u0412"
+    \u0412 \u041A\u0420\u0410\u0419 \u041F\u0420\u041E\u0413\u041E\u041B\u041E\u0414\u0410\u041B\u0421\u042F"
 --- !u!222 &2141841897
 CanvasRenderer:
   m_ObjectHideFlags: 0
