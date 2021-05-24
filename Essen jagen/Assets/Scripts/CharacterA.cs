@@ -30,18 +30,18 @@ public class CharacterA : MonoBehaviour
     private bool isEating = false;
     private int tempMaxHealth;
     public int satiety;
+    public string DeathScene;
     
     public AudioSource jump;
     public AudioSource runOnGrass;
     public AudioSource eatingFood;
     public AudioSource teleportation;
     public AudioSource runOnIce;
-    //public AudioSource firstSong;
-    //public AudioSource secondSong;
-    //public AudioSource thirdSong;
-    //public AudioSource fourthSong;
-    //public AudioSource fifthSong;
     private bool isSecondSong;
+
+    public KeyCode upCode;
+    public KeyCode leftCode;
+    public KeyCode rightCode;
 
 
 
@@ -65,7 +65,7 @@ public class CharacterA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(upCode))
         {
             if (isGrounded||isIce)
             {
@@ -83,21 +83,21 @@ public class CharacterA : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) && isGrounded)
+        if ((Input.GetKey(leftCode) || Input.GetKey(rightCode)) && isGrounded)
         {
             if (!runOnGrass.isPlaying)
                 runOnGrass.Play();
         }
         else runOnGrass.Stop();
-        if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) && isIce)
+        if ((Input.GetKey(leftCode) || Input.GetKey(rightCode)) && isIce)
         {
             if (!runOnIce.isPlaying)
                 runOnIce.Play();
         }
         else runOnIce.Stop();
         
-        xInput = Input.GetKey(KeyCode.LeftArrow) ? -1 :
-            Input.GetKey(KeyCode.RightArrow) ? 1 : 0;
+        xInput = Input.GetKey(leftCode) ? -1 :
+            Input.GetKey(rightCode) ? 1 : 0;
 
         transform.Translate(xInput * moveSpeed, yInput * moveSpeed, 0);
         
@@ -149,7 +149,7 @@ public class CharacterA : MonoBehaviour
             tempMaxHealth = maxHealth * coef; 
         } 
         currentHealth -= coef; 
-        if(currentHealth <= 0) SceneManager.LoadScene("ADeathScene"); 
+        if(currentHealth <= 0) SceneManager.LoadScene(DeathScene); 
         if (coef < 5) tempMaxHealth -= coef; 
         healthBar.SetHealth(currentHealth); 
     } 

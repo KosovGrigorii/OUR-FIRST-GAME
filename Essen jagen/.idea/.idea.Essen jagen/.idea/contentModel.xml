@@ -5,11 +5,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterA.cs" t="Include" />
-          <e p="CharacterB.cs" t="Include" />
           <e p="Eating.cs" t="Include" />
           <e p="GameAssembly.asmdef" t="Include" />
           <e p="HealthBarA.cs" t="Include" />
-          <e p="HealthBarB.cs" t="Include" />
           <e p="Intro.cs" t="Include" />
           <e p="IntroMenu.cs" t="Include" />
           <e p="MenuBehaviour.cs" t="Include" />
