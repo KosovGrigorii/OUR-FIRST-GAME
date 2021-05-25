@@ -40,7 +40,7 @@ public class TestSuite
         eater.minX = 0;
         eater.minY = 0;
         eater.distanceFood = 5;
-        Assert.AreEqual(eater.CheckPointCorrectForPlacingFood(0, 0, 4.9f, 1), true);
+        Assert.AreEqual(eater.CheckPointCorrectForPlacingFood(0, 0, 4.9f, 0), false);
     }
 
     [Test]
