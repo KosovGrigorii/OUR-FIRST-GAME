@@ -57,13 +57,14 @@ public class Eating : MonoBehaviour
     {
         var newX = UnityEngine.Random.Range(minX, maxX);
         var newY = UnityEngine.Random.Range(minY, maxY);
-        if (CheckingPoint(newX, newY, Player1.transform.position.x, Player1.transform.position.y))
+        if (CheckPointCorrectForPlacingFood(newX, newY, Player1.transform.position.x, Player1.transform.position.y))
             transform.position = new Vector3(newX, newY, -60);
         else SpawnNewFood();
     }
 
-    public bool CheckingPoint(float x, float y,  float x0, float y0)
+    public bool CheckPointCorrectForPlacingFood(float x, float y,  float x0, float y0)
     {
+        //метод проверяет, может ли еда быть размещена в данной точке на карте
         var dictOfWays = new Dictionary<Tuple<float, float>, bool>();
         var queue = new Queue<Tuple<float, float>>();
         for (float i = -distanceFood; i <= distanceFood; i += 0.5f)
