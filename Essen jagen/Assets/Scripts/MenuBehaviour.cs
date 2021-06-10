@@ -10,4 +10,16 @@ public class MenuBehaviour : MonoBehaviour
         Intro.hint = 20;
         Intro.sceneName = sceneName;
     }
+    
+    public void ChangeScene1(string sceneName)
+    {
+        StartCoroutine(LoadLevel(sceneName));
+
+    }
+    
+    IEnumerator LoadLevel(string level)
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(level);
+    }
 }
